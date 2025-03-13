@@ -43,6 +43,7 @@ function submitForm(event) {
 
     localStorage.setItem("users", JSON.stringify(updatedUsers));
     localStorage.setItem("currentUser", JSON.stringify(updatedUser));
+    alert("Данные успешно обновлены!");
 
     location.pathname = "/";
 }
